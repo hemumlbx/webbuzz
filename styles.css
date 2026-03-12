@@ -4,8 +4,10 @@ a{text-decoration:none;color:inherit}
 .container{max-width:1140px;margin:0 auto;padding:0 20px}
 header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:20}
 .nav{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:10px 0}
-.logo img{height:46px;width:auto;display:block}
+.text-logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.5rem;letter-spacing:.2px}
+.text-logo .dot{width:14px;height:14px;background:var(--primary);border-radius:50%;display:inline-block;box-shadow:0 0 0 4px #ffe7d0}
 .menu{display:flex;gap:12px;flex-wrap:wrap;font-size:.92rem}.menu a{padding:8px 10px;border-radius:8px}.menu a:hover,.menu a.active{background:#fff2e5;color:#a34d00}
+.nav-cta{background:var(--black);color:#fff;padding:10px 14px;border-radius:10px;font-weight:700;font-size:.88rem}
 .hero{background:linear-gradient(140deg,#fff6eb 0%,#ffe8cf 58%,#ffd7ad 100%);padding:76px 0}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
 .hero h1{font-size:clamp(2.1rem,4.3vw,3.5rem);line-height:1.06;margin:0 0 12px}.grad{color:#bd5b00}
@@ -21,4 +23,4 @@ section{padding:60px 0}h2{font-size:clamp(1.5rem,2.7vw,2.2rem);margin:0 0 10px}.
 .highlights{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}.pill{padding:9px 11px;border-radius:999px;background:#fff;color:#8d4300;font-weight:600;font-size:.85rem;text-align:center;border:1px solid #ffd8b5}
 .contactbox{background:#fff2e5;border:1px solid #ffd9b8;border-radius:14px;padding:18px;margin-top:18px}
 footer{background:#000;color:#cfcfcf;padding:25px 0}.foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.accent{color:var(--primary);font-weight:700}
-@media (max-width:960px){.hero-grid,.grid3,.steps{grid-template-columns:1fr}.mini-stats{grid-template-columns:1fr 1fr}.highlights{grid-template-columns:repeat(2,1fr)}.menu{display:none}}
+@media (max-width:960px){.hero-grid,.grid3,.steps{grid-template-columns:1fr}.mini-stats{grid-template-columns:1fr 1fr}.highlights{grid-template-columns:repeat(2,1fr)}.menu,.nav-cta{display:none}}
