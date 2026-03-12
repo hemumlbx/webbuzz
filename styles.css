@@ -22,5 +22,6 @@ section{padding:60px 0}h2{font-size:clamp(1.5rem,2.7vw,2.2rem);margin:0 0 10px}.
 .testi{background:#fff2e5}.quote{font-size:1.25rem;font-weight:700;color:#1a1a1a;max-width:760px}
 .highlights{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}.pill{padding:9px 11px;border-radius:999px;background:#fff;color:#8d4300;font-weight:600;font-size:.85rem;text-align:center;border:1px solid #ffd8b5}
 .contactbox{background:#fff2e5;border:1px solid #ffd9b8;border-radius:14px;padding:18px;margin-top:18px}
+.wb-form{display:grid;gap:12px;max-width:700px}.wb-form label{display:grid;gap:6px;font-weight:600;color:#2a2a2a}.wb-form input,.wb-form textarea{padding:11px 12px;border:1px solid #e3c9ae;border-radius:10px;font:inherit;background:#fff}
 footer{background:#000;color:#cfcfcf;padding:25px 0}.foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.accent{color:var(--primary);font-weight:700}
 @media (max-width:960px){.hero-grid,.grid3,.steps{grid-template-columns:1fr}.mini-stats{grid-template-columns:1fr 1fr}.highlights{grid-template-columns:repeat(2,1fr)}.menu,.nav-cta{display:none}}
